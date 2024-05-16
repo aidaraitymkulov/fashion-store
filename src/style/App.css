@@ -1,0 +1,160 @@
+@import './font.css';
+@import './reset.css';
+
+.container {
+  max-width: 1158px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+body {
+  font-family: 'Poppins',Arial, Helvetica, sans-serif;
+}
+
+.header {
+  height: 66px;
+}
+
+.header > .container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.heade__logo {
+  font-weight: 700;
+  font-size: 28px;
+  color: #22262a;
+}
+.header__menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+
+.header__link {
+  font-weight: 400;
+  font-size: 18px;
+  color: #22262a;
+}
+
+.new_trend {
+  font-weight: 500;
+  font-size: 18px;
+  color: #22262a
+}
+
+.colussions {
+  font-weight: 700;
+  font-size: 80px;
+  color: #22262a;
+}
+
+.an {
+  font-weight: 500;
+  font-size: 18px;
+  color: #22262a;
+}
+
+.hero  {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  height: 763px;
+  background: url(../pictures/1\ 1.jpg) no-repeat;
+  background-size: cover; 
+  padding-left: 909px;
+  padding-top: 435px;
+  margin-bottom: 105px;
+}
+
+
+.discription {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.btn {
+  width: 151;
+  height: 41;
+  background-color: black;
+  margin-right: 20px;
+}
+
+.text {
+  font-weight: 500;
+  font-size: 18px;
+  text-align: center;
+  color: #fff;
+}
+
+.products {
+  height: 632px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.womens__fashion {
+  font-weight: 700;
+  font-size: 20px;
+  text-align: center;
+  color: #22262a;
+  margin-bottom: 21px;
+}
+
+.womens__description {
+  font-weight: 400;
+  font-size: 15px;
+  text-align: center;
+  color: #22262a;
+  margin-bottom: 65px;
+}
+
+.products > .grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 22px;
+}
+
+.card__img {
+  width: 268px;
+  height: 371px;
+  margin-bottom: 38px;
+}
+
+.card__title {
+  font-weight: 300;
+  font-size: 15px;
+  color: #22262a;
+  margin-bottom: 3px;
+}
+
+.card__description {
+  font-weight: 600;
+  font-size: 15px;
+  color: #22262a;
+  margin-bottom: 3px;
+}
+
+.prices {
+  display: flex;
+  gap: 10px;
+}
+
+.price {
+  font-weight: 400;
+  font-size: 15px;
+  color: #22262a;
+  text-decoration: line-through;
+}
+
+.price2 {
+  font-weight: 400;
+  font-size: 15px;
+  color: #cf2929;
+}
+
