@@ -1,0 +1,20 @@
+.form {
+    padding: 20px 30px;
+}
+
+.input__form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.input__desc {
+    height: 30px;
+    width: 400px;
+}
+
+.form__btn {
+    height: 30px;
+    width: 400px;
+    margin-bottom: 100px;
+}

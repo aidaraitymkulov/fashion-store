@@ -1,5 +1,6 @@
 @import './font.css';
 @import './reset.css';
+@import './lookbookpage.css';
 
 .container {
   max-width: 1158px;
